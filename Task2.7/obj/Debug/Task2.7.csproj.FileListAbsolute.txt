@@ -1,0 +1,7 @@
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\bin\Debug\Task2.7.exe.config
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\bin\Debug\Task2.7.exe
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\bin\Debug\Task2.7.pdb
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\obj\Debug\Task2.7.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\obj\Debug\Task2.7.exe
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\obj\Debug\Task2.7.pdb
+C:\Users\Максим\Desktop\Unity\Task2.7\Task2.7\obj\Debug\Task2.7.csproj.AssemblyReference.cache
