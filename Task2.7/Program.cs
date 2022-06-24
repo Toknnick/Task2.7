@@ -11,32 +11,28 @@ namespace Task2._7
         static void Main(string[] args)
         {
             Console.WriteLine("Введите имя");
-            string name = Console.ReadLine();
+            string name = Console.ReadLine().Trim();
             Console.WriteLine("Введите символ");
             char symbol = Convert.ToChar(Console.ReadLine());
             Console.Clear();
-            int numberOfLine = 0;
-            int centerLinesAndRows = 2;
-            Console.SetCursorPosition(0, numberOfLine);
+            int stringInOrder = 0;
+            int numberOfLines = 3;
+            Console.SetCursorPosition(0, stringInOrder);
+            string stringOfSymbols = "";
 
-            for (int i = 0; i <= name.Length; i++)
+            for (int i = 0; i < name.Length; i++)
             {
-                if(i == name.Length)
-                {
-                    numberOfLine++;
-                    Console.SetCursorPosition(0, numberOfLine );
-                    i -= name.Length;
-                }
-
-                if(numberOfLine >= 3) 
-                {
-                    Console.SetCursorPosition(0, numberOfLine - centerLinesAndRows);
-                    Console.Write(name);
-                    Console.SetCursorPosition(0, numberOfLine);
-                    break;
-                }
-                Console.Write(symbol);
+                 stringOfSymbols += symbol;
             }
+
+            for (int i = 0; i < numberOfLines; i++)
+            {
+                stringInOrder++;
+                Console.WriteLine(stringOfSymbols);
+            }
+
+            Console.SetCursorPosition(0, 1);
+            Console.Write(name);
         }
     }
  }
